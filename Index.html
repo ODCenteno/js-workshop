@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcooladora</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=M+PLUS+Rounded+1c:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="header-container">
+    <nav class="header-nav">
+      <a href="http://127.0.0.1:5500/index.html"><span class="material-icons md-40 icon-calculate">calculate</span></a>
+      <span class="menu-brand">Calcoolator</span>
+      <ul class="menu-list">
+        <li class="menu-item"><a href="http://127.0.0.1:5500/figures.html">Geometric figures</a></li>
+        <li class="menu-item"><a href="http://127.0.0.1:5500/discounts.html">Prices & descounts</a></li>
+        <li class="menu-item"><a href="http://127.0.0.1:5500/statistics.html">Statistics</a></li>
+        <li class="menu-item"><a href="/">Salary Analysis</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+
+    <div class="section-info">
+      <h2 class="section-title">Fast Calcoolations</h2>
+      <p class="section-info-description">Choose between diferent options to transform data to useful information in a blink.</p>
+    </div>
+
+    <section class="calc-container">
+
+      <div class="calc-card">
+        <div class="calc-hero">
+          <h3 class="h3-figure">Start now!</h3>
+          <span class="material-icons md-36">menu</span>
+        </div>
+        <form class="calc-form">
+
+          <a href="http://127.0.0.1:5500/figures.html">
+            <button class="btn-calc" type="button" >Areas and perimeters</button></a>
+          <a href="http://127.0.0.1:5500/discounts.html"><button class="btn-calc" type="button" >Prices & discounts</button></a>
+        
+        </form>
+        <!-- <div class="calc-result">
+          <span>Te result is: </span><span id="squareResult"></span>
+        </div> -->
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
